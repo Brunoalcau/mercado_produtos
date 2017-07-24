@@ -1,0 +1,42 @@
+@import '../../variables';
+
+.list-row-container {
+    display: flex;
+    padding: 16px 0 0px 16px;
+    border-bottom: 1px solid $primary-color;
+    cursor: pointer;
+}
+    .list-row {
+        padding: 0px 16px 11px 0px;
+        border-radius: 4px;
+        .item-img {
+            width: 180px;
+            height: 180px;
+            border-radius: 4px;
+        }
+    }
+        .list-row-text__price {
+            font-size: 24px;
+            margin-bottom: 32px;
+            display: flex;
+            align-items: center;
+            span {
+                padding-right: 10px; 
+            }
+        }
+        .list-row-text {
+            span {
+                display: block;
+                font-size: 18px;
+                color: $secund-color-text;
+            }
+        }
+        .list-row-text__address {
+            position: absolute;
+            font-size: 12px;
+            right: 20%;
+            margin-top: 17px;
+            p {
+                color: $secund-color-text;
+            }
+        }

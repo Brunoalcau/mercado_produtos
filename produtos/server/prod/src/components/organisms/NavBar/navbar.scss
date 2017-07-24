@@ -1,0 +1,25 @@
+@import '../../_variables';
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: .5em;
+	padding-bottom: .5em;
+	background-color: #f4f4f4;
+    background-color: $cor-nav-bar;
+}
+.nav-bar {
+    max-width: 1220px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0 8.5%;
+    margin: 0 auto;
+    padding-top: 6px;
+}
+.nav-bar-right {
+    width: 88%; 
+}
+.nav-bar-left {
+    width: 8%;
+}
